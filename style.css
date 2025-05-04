@@ -1,0 +1,82 @@
+body{
+    background-color: aliceblue;
+}
+header{
+    background-color: lightblue;
+    font-size: large;
+}
+
+h1{
+    text-align: center;
+    color: rgb(12, 64, 109);
+}
+
+#inputbox{
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: lightblue;
+    margin-left: 400px;
+    border: 1px solid rgb(12, 64, 109);
+}
+
+button{
+    text-align: center;
+    padding: 20px;
+    background-color: lightblue;
+    cursor: pointer;
+
+}
+
+.completed{
+    text-decoration: line-through;
+    color: grey;
+    opacity: 0.8;
+}
+.list-items{
+    display: flex;
+    justify-content: center;
+}
+#task-list{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    font-weight: bolder;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 20px; */
+    padding: 8px;
+    border-bottom: 1px solid black;
+}
+li button{
+    margin-left: 80px;
+    padding: 10px 20px;
+}
+taskText{
+    max-width: 70%;
+    word-wrap: break-word;
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin:auto;
+}
+
+removeButton {
+    display: flex;
+    gap: 8px;
+    margin-left: auto;
+}
+
+doneButton{
+    display: flex;
+}
+#clear-all{
+    margin-left: 625px;
+    padding: 15px;
+}
+
+
